@@ -10,18 +10,21 @@ import SwiftUI
 struct SecondFavouriteView: View {
     var body: some View {
         
-        VStack{
+        ScrollView{
             
-            Image ("Family")
-                        .resizable()
-                        .scaledToFit()
-                    
-            Text("""
-                This is my Mother and my Father with me on New Years Eve last year.
-                We were in Fuerteventura as I wasn't allowed to come back to Germany because of quarantine rules but it was a great evening.
-                """)
-                    
-            Spacer()
+            VStack{
+                
+                Image ("Family")
+                            .resizable()
+                            .scaledToFit()
+                        
+                Text("""
+                    This is my Mother and my Father with me on New Years Eve last year.
+                    We were in Fuerteventura as I wasn't allowed to come back to Germany because of quarantine rules but it was a great evening.
+                    """)
+                        
+                Spacer()
+            }
         }
         .navigationTitle("My Parents")
     }

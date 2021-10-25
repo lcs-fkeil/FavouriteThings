@@ -10,17 +10,20 @@ import SwiftUI
 struct ThirdFavouriteView: View {
     var body: some View {
         
-        VStack{
-        
-            Image ("Klara")
-            .resizable()
-            .scaledToFit()
+        ScrollView{
             
+            VStack{
+            
+            Image ("Klara")
+                .resizable()
+                .scaledToFit()
+                
             Text("""
-            This is my little sister Klara.
-            This was right before I went to boarding school for the first time.
-            """)
-    }
+                This is my little sister Klara.
+                This was right before I went to boarding school for the first time.
+                """)
+        }
+        }
         .navigationTitle("Klara")
 }
 }
