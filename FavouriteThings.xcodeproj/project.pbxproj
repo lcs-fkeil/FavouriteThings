@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622E51FE2731BD3800F3522B /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */; };
 		625E0B4C27270DA800138A46 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */; };
 		625E0B4E2727307900138A46 /* Cassiopeia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E0B4D2727307900138A46 /* Cassiopeia.swift */; };
 		62C1DF752727337100D5D4A2 /* MyGrandpa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C1DF742727337100D5D4A2 /* MyGrandpa.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 		625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		625E0B4D2727307900138A46 /* Cassiopeia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassiopeia.swift; sourceTree = "<group>"; };
 		62C1DF742727337100D5D4A2 /* MyGrandpa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGrandpa.swift; sourceTree = "<group>"; };
@@ -44,9 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622E51FC2731BD0800F3522B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		625E0B4A2727084300138A46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				622E51FC2731BD0800F3522B /* Shared */,
 				625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */,
 				62CC9636272060CB0095F8F8 /* FavouriteView.swift */,
 				62CC96422720652D0095F8F8 /* SecondFavouriteView.swift */,
@@ -168,6 +179,7 @@
 				62CC96432720652D0095F8F8 /* SecondFavouriteView.swift in Sources */,
 				62C1DF77272734A300D5D4A2 /* Linie3.swift in Sources */,
 				62CC9637272060CB0095F8F8 /* FavouriteView.swift in Sources */,
+				622E51FE2731BD3800F3522B /* PhotoCaptionView.swift in Sources */,
 				625E0B4C27270DA800138A46 /* FavouriteThingsListView.swift in Sources */,
 				62CC9645272065500095F8F8 /* ThirdFavouriteView.swift in Sources */,
 				62CC9635272060CB0095F8F8 /* FavouriteThingsApp.swift in Sources */,

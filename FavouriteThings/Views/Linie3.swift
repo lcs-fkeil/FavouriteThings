@@ -14,9 +14,7 @@ struct Linie3: View {
             
             VStack{
                 
-                Image ("Linie3")
-                            .resizable()
-                            .scaledToFit()
+               PhotoCaptionView()
                         
                 Text("""
                     This is a Cafe close to my old school in Germany.
@@ -24,6 +22,7 @@ struct Linie3: View {
                     My parents used to go to this excact cafe already when they were younger.
                     Whenever I visit home and meet up with friends we go there.
                     """)
+                    .padding()
                         
                 Spacer()
             }

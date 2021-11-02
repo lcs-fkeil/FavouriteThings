@@ -14,9 +14,7 @@ struct MyGrandpa: View {
             
             VStack{
                 
-                Image ("Grandpa")
-                            .resizable()
-                            .scaledToFit()
+                PhotoCaptionView()
                         
                 Text("""
                     This is my Grandpa Bruno.
@@ -24,6 +22,7 @@ struct MyGrandpa: View {
                     He lives 2 hours away from where I live so I don't get to see him that often.
                     This picture was from the Picknick we did when I went to boarding shool for the first time
                     """)
+                    .padding()
                         
                 Spacer()
             }

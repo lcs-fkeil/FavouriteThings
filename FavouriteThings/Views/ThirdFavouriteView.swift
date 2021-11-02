@@ -14,14 +14,13 @@ struct ThirdFavouriteView: View {
             
             VStack{
             
-            Image ("Klara")
-                .resizable()
-                .scaledToFit()
+            PhotoCaptionView()
                 
             Text("""
                 This is my little sister Klara.
                 This was right before I went to boarding school for the first time.
                 """)
+                    .padding()
         }
         }
         .navigationTitle("Klara")
