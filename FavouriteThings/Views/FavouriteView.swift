@@ -14,7 +14,7 @@ struct ContentView: View {
             
             VStack {
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "LisasBirthday", caption: "My best friends sweet 16", credit: "will do later")
                 
                 Text("""
                      This is the 16th Birthday of one of my best friends Lisa.

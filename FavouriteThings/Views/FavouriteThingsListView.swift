@@ -12,7 +12,24 @@ struct FavouriteThingsListView: View {
         List {
             
             NavigationLink(destination: ContentView()) {
-                Text("Lisa's Birthday")
+                HStack{
+                    Image("LisasBirthday")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    VStack(alignment: .leading){
+                        Text("Lisa's Birthday")
+                            .bold()
+                        Text("The 16th birthday of my best friend Lisa")
+                            .font(.caption)
+                    }
+                    
+                    
+                    
+                }
+                
+                
             }
             
             

@@ -14,7 +14,7 @@ struct Linie3: View {
             
             VStack{
                 
-               PhotoCaptionView()
+                PhotoCaptionView(imageName: "Linie3", caption: "will do later", credit: "will do later")
                         
                 Text("""
                     This is a Cafe close to my old school in Germany.

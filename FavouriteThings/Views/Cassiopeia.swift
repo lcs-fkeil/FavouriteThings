@@ -14,7 +14,7 @@ struct Cassiopeia: View {
             
             VStack{
                 
-               PhotoCaptionView()
+                PhotoCaptionView(imageName: "Cassiopeia", caption: "will do later", credit: "will do later")
                         
                 Text("""
                     This is my grooming horse Cassiopeia.
