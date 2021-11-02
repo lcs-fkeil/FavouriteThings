@@ -20,17 +20,7 @@ struct ContentView: View {
                         .resizable()
                     .scaledToFit()
                     
-                    VStack(alignment: .leading) {
-                        
-                        Text("An unusual but really fun Birthday")
-                            .font(.caption)
-                            .bold()
-                        
-                        Text("Photo credit: Nele Krogmann")
-                            .font(.caption)
-                            .italic()
-                    }
-                    .padding(.horizontal)
+                    ExtractedView()
                     
                 }
                 
@@ -54,4 +44,20 @@ struct ContentView_Previews: PreviewProvider {
             ContentView()
     }
 }
+}
+
+struct ExtractedView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            
+            Text("An unusual but really fun Birthday")
+                .font(.caption)
+                .bold()
+            
+            Text("Photo credit: Nele Krogmann")
+                .font(.caption)
+                .italic()
+        }
+        .padding(.horizontal)
+    }
 }
