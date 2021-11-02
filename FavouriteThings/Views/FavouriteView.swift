@@ -14,15 +14,32 @@ struct ContentView: View {
             
             VStack {
                 
-                Image ("LisasBirthday")
-                    .resizable()
+                VStack(alignment: .leading) {
+                    
+                    Image ("LisasBirthday")
+                        .resizable()
                     .scaledToFit()
+                    
+                    VStack(alignment: .leading) {
+                        
+                        Text("An unusual but really fun Birthday")
+                            .font(.caption)
+                            .bold()
+                        
+                        Text("Photo credit: Nele Krogmann")
+                            .font(.caption)
+                            .italic()
+                    }
+                    .padding(.horizontal)
+                    
+                }
                 
                 Text("""
                      This is the 16th Birthday of one of my best friends Lisa.
                      We celebrated it in quarantine in England last year but regardless it was really fun.
+                     For half of the year she and I shared a room and it was one of the most fun times in my life.
                      """)
-                
+                    .padding()
                 Spacer()
 
             }
