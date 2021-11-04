@@ -14,7 +14,7 @@ struct MyGrandpa: View {
             
             VStack{
                 
-                PhotoCaptionView(imageName: "Grandpa", caption: "will do later", credit: "will do later")
+                PhotoCaptionView(imageName: "Grandpa", caption: "My grandpa on my last day in Germany", credit: "Photo credit: Franka Keil")
                         
                 Text("""
                     This is my Grandpa Bruno.

@@ -14,7 +14,7 @@ struct SecondFavouriteView: View {
             
             VStack{
                 
-                PhotoCaptionView(imageName: "Family", caption: "will do later", credit: "will do later")
+                PhotoCaptionView(imageName: "Family", caption: "My parents on New Years Eve", credit: "Photo credit: Franka Keil")
                         
                 Text("""
                     This is my Mother and my Father with me on New Years Eve last year.

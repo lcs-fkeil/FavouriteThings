@@ -14,7 +14,7 @@ struct Linie3: View {
             
             VStack{
                 
-                PhotoCaptionView(imageName: "Linie3", caption: "will do later", credit: "will do later")
+                PhotoCaptionView(imageName: "Linie3", caption: "My favourite cafe in Darmstadt", credit: "Photo credit: facebook.com/Café-Linie-3")
                         
                 Text("""
                     This is a Cafe close to my old school in Germany.
