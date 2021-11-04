@@ -10,47 +10,29 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            
             NavigationLink(destination: ContentView()) {
-                HStack{
-                    Image("LisasBirthday")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading){
-                        Text("Lisa's Birthday")
-                            .bold()
-                        Text("The 16th birthday of my best friend Lisa")
-                            .font(.caption)
-                    }
-                    
-                    
-                    
-                }
-                
-                
+                PlainListView(imageNameII: "LisasBirthday", title: "Lisa's Birthday", caption: "The 16th Birthday of my best friend Lisa")
             }
             
             
             NavigationLink(destination: SecondFavouriteView()) {
-                Text("My Parents")
+                PlainListView(imageNameII: "Family", title: "My Parents", caption: "My Mum and Dad on New Years Eve last year")
             }
             
             NavigationLink(destination: ThirdFavouriteView()) {
-                Text("Klara")
+                PlainListView(imageNameII: "Klara", title: "Klara", caption: "My lovely sister eating Nutella")
             }
             
             NavigationLink(destination: Cassiopeia()) {
-                Text("Cassiopeia")
+                PlainListView(imageNameII: "Cassiopeia", title: "Cassiopeia", caption: "My grooming horse back in Germany")
             }
             
             NavigationLink(destination: MyGrandpa()) {
-                Text("My Grandpa")
+                PlainListView(imageNameII: "Grandpa", title: "My Grandpa", caption: "My Grandpa on my last day in Germany")
             }
             
             NavigationLink(destination: Linie3()) {
-                Text("Linie 3")
+                PlainListView(imageNameII: "Linie3", title: "Linie 3", caption: "My favourite cafe back at home")
             }
             
         }
@@ -61,7 +43,7 @@ struct FavouriteThingsListView: View {
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-        FavouriteThingsListView()
+            FavouriteThingsListView()
+        }
     }
-}
 }

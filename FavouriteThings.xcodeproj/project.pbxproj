@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		622E51FE2731BD3800F3522B /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */; };
+		622E52002731C96B00F3522B /* PlainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E51FF2731C96B00F3522B /* PlainListView.swift */; };
 		625E0B4C27270DA800138A46 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */; };
 		625E0B4E2727307900138A46 /* Cassiopeia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E0B4D2727307900138A46 /* Cassiopeia.swift */; };
 		62C1DF752727337100D5D4A2 /* MyGrandpa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C1DF742727337100D5D4A2 /* MyGrandpa.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
+		622E51FF2731C96B00F3522B /* PlainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainListView.swift; sourceTree = "<group>"; };
 		625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		625E0B4D2727307900138A46 /* Cassiopeia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cassiopeia.swift; sourceTree = "<group>"; };
 		62C1DF742727337100D5D4A2 /* MyGrandpa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGrandpa.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				622E51FD2731BD3800F3522B /* PhotoCaptionView.swift */,
+				622E51FF2731C96B00F3522B /* PlainListView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				625E0B4E2727307900138A46 /* Cassiopeia.swift in Sources */,
+				622E52002731C96B00F3522B /* PlainListView.swift in Sources */,
 				62C1DF752727337100D5D4A2 /* MyGrandpa.swift in Sources */,
 				62CC96432720652D0095F8F8 /* SecondFavouriteView.swift in Sources */,
 				62C1DF77272734A300D5D4A2 /* Linie3.swift in Sources */,
