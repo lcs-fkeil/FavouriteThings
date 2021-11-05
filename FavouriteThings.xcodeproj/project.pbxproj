@@ -19,6 +19,7 @@
 		62CC963C272060CC0095F8F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CC963B272060CC0095F8F8 /* Preview Assets.xcassets */; };
 		62CC96432720652D0095F8F8 /* SecondFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC96422720652D0095F8F8 /* SecondFavouriteView.swift */; };
 		62CC9645272065500095F8F8 /* ThirdFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC9644272065500095F8F8 /* ThirdFavouriteView.swift */; };
+		62DF27FA27355EA400EB0C28 /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF27F927355EA400EB0C28 /* FavouriteThing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		62CC963B272060CC0095F8F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62CC96422720652D0095F8F8 /* SecondFavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFavouriteView.swift; sourceTree = "<group>"; };
 		62CC9644272065500095F8F8 /* ThirdFavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFavouriteView.swift; sourceTree = "<group>"; };
+		62DF27F927355EA400EB0C28 /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		625E0B4A2727084300138A46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				62DF27F627355E6A00EB0C28 /* Model */,
 				622E51FC2731BD0800F3522B /* Shared */,
 				625E0B4B27270DA800138A46 /* FavouriteThingsListView.swift */,
 				62CC9636272060CB0095F8F8 /* FavouriteView.swift */,
@@ -105,6 +108,14 @@
 				62CC963B272060CC0095F8F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62DF27F627355E6A00EB0C28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62DF27F927355EA400EB0C28 /* FavouriteThing.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DF27FA27355EA400EB0C28 /* FavouriteThing.swift in Sources */,
 				625E0B4E2727307900138A46 /* Cassiopeia.swift in Sources */,
 				622E52002731C96B00F3522B /* PlainListView.swift in Sources */,
 				62C1DF752727337100D5D4A2 /* MyGrandpa.swift in Sources */,

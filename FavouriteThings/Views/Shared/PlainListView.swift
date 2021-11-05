@@ -12,7 +12,7 @@ struct PlainListView: View {
     //MARK: Stored properties
     let imageNameII: String
     let title: String
-    let caption: String
+    let navigationSubtitle: String
     
     //MARK: Computed properties
     var body: some View {
@@ -25,7 +25,7 @@ struct PlainListView: View {
             VStack(alignment: .leading){
                 Text(title)
                     .bold()
-                Text(caption)
+                Text(navigationSubtitle)
                     .font(.caption)
             }
         }
@@ -34,6 +34,6 @@ struct PlainListView: View {
 
 struct PlainListView_Previews: PreviewProvider {
     static var previews: some View {
-        PlainListView(imageNameII: "BlaBlaBla", title: "BlaBlaBal", caption: "BlaBlaBla")
+        PlainListView(imageNameII: "BlaBlaBla", title: "BlaBlaBal", navigationSubtitle: "BlaBlaBla")
     }
 }
